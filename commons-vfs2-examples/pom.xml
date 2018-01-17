@@ -22,22 +22,23 @@
   <modelVersion>4.0.0</modelVersion>
 
   <name>Apache Commons VFS Examples</name>
-  <groupId>org.apache.commons</groupId>
+  <groupId>org.wso2.org.apache.commons</groupId>
   <artifactId>commons-vfs2-examples</artifactId>
-  <version>2.2</version>
+  <version>2.2-wso2v1-SNAPSHOT</version>
   <description>Apache Commons VFS is a Virtual File System library - Examples.</description>
 
   <parent>
-    <groupId>org.apache.commons</groupId>
+    <groupId>org.wso2.org.apache.commons</groupId>
     <artifactId>commons-vfs2-project</artifactId>
-    <version>2.2</version>
+    <version>2.2-wso2v1-SNAPSHOT</version>
     <relativePath>../</relativePath>
   </parent>
 
   <dependencies>
     <dependency>
-      <groupId>org.apache.commons</groupId>
+      <groupId>org.wso2.org.apache.commons</groupId>
       <artifactId>commons-vfs2</artifactId>
+      <version>${project.version}</version>
     </dependency>
 
     <dependency>
